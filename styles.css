@@ -1,0 +1,323 @@
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* #region Semantic Elements */
+
+header {
+  background-color: lightsteelblue;
+  font: 28px 'Architects Daughter', cursive;
+  margin: 0;
+  padding: 1px;
+  text-align: center;
+}
+
+nav {
+  background-color: steelblue;
+  font-family: Arial, sans-serif;
+  height: 42px;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+  padding: 10px 25px;
+}
+
+nav ul li:hover {
+  background-color: deeppink;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#main-index,
+#main-interests,
+#main-hades,
+#main-list {
+  font: 18px Verdana, sans-serif;
+  margin: 40px auto;
+  width: 1080px;
+}
+
+footer {
+  background-color: lightslategray;
+  font: 16px 'Courier New', Courier, monospace;
+  height: 200px;
+}
+
+footer div {
+  border-right: 2px solid darkslategrey;
+  float: left;
+  padding: 0 15px;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* #endregion */
+
+/* #region Home Page */
+
+#main-index {
+  background-color: #42228b50;
+  height: 500px;
+  padding: 10px 20px;
+}
+
+#main-index img {
+  float: right;
+  height: 492px;
+  width: 482px;
+}
+
+#block {
+  background-color: #4d133b;
+  color: lightpink;
+  margin-top: 20px;
+  padding: 20px 30px 100px;
+  width: 502px;
+}
+
+/* #endregion */
+
+/* #region Interests Page - Section 1 */
+
+#body-interests {
+  background-color: black;
+}
+
+#main-interests {
+  background-color: black;
+  border-left: 5px solid #e9bb3b;
+  border-bottom: 5px solid #e9bb3b;
+  border-right: 5px solid #e9bb3b;
+  height: 1274px;
+}
+
+#main-interests h2 {
+  background-color: #e9bb3b;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#anime {
+  height: 558px;
+  position: relative;
+}
+
+#anime-container img {
+  background-color: black;
+  border-top: 2px solid #e9bb3b;
+  border-bottom: 2px solid #e9bb3bbe;
+  bottom: 10px;
+  height: 556px;
+  left: 2px;
+  padding: 0 2px;
+  position: absolute;
+  width: 1074px;
+}
+
+#anime-container a {
+  bottom: 25px;
+  color: #e9bb3b;
+  font-size: 14px;
+  left: 30px;
+  position: absolute;
+}
+
+#anime-text {
+  background-color: rgba(233, 187, 59, 0.85);
+  bottom: 30px;
+  padding: 0 20px;
+  position: absolute;
+  right: 20px;
+  width: 400px;
+}
+
+#anime-text h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #endregion */
+
+/* #region Interests Page - Section 2 */
+
+#music {
+  position: relative;
+}
+
+#music figure img {
+  border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
+  height: 602px;
+  position: absolute;
+  right: 0px;
+  width: 806px;
+}
+
+#playlist-link {
+  font: 500 19px 'Architects Daughter';
+  position: absolute;
+  right: 30px;
+  top: 45px;
+}
+
+#playlist-link a {
+  color: rgb(233, 187, 59);
+  text-decoration: none;
+}
+
+#playlist-link a:hover {
+  color: deeppink;
+}
+
+#playlist-link a .music-title {
+  font-weight: bold;
+}
+
+#music-text {
+  background-color: orange;
+  padding: 20px;
+  position: absolute;
+  width: 280px;
+}
+
+#music-text img {
+  height: 176px;
+  width: 176px;
+}
+
+/* #endregion */
+
+/* #region Art Hobby Page */
+
+#main-hades a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#main-hades h1 {
+  background-color: rgba(233, 187, 59);
+  font: 36px 'Architects Daughter', cursive;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#art-container {
+  background-color: crimson;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  position: relative;
+}
+
+#art-container img {
+  height: 479px;
+  width: 1080px;
+}
+
+#art-text-container {
+  background-color: rgba(233, 187, 59, 0.8);
+  bottom: 75px;
+  left: 20px;
+  padding: 30px 20px;
+  position: absolute;
+  width: 300px;
+}
+
+#art-text-container cite {
+  color: darkred;
+  font-weight: bold;
+}
+
+/* #endregion */
+
+/* Topics List Page */
+
+#main-list {
+  background-color: lightblue;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+
+.l1 {
+  list-style-type: none;
+}
+
+#main-list ol {
+  font-weight: bold;
+}
+
+#main-list ol li ul {
+  text-decoration: none;
+}
+
+#main-list ol li ul {
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+/* Table Page */
+
+#main-table {
+  background-image: url(images/1809bg.gif);
+  height: 100%;
+  padding: 130px 0;
+}
+
+th, td {
+  border: 3px ridge darkgray;
+  padding: 8px;
+}
+
+table {
+  background-color: #fefefe;
+  border: 8px outset darkgray;
+  border-collapse: collapse;
+  color: #653232;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 auto;
+  width: 90%;
+}
+
+thead {
+  background-color: #fefe00;
+}
+
+#time {
+  width: 15%;
+}
+
+#men {
+  background-color: #98cbfe;
+  vertical-align: top;
+}
+
+#women {
+  background-color: #98fe98;
+  vertical-align: top;
+}
+
+table caption {
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.time {
+  text-align: right;
+}
