@@ -1,2 +1,4 @@
 # UW_WEB1_FinalProject
-A website I created for my final project in web development at the end of term 1 at the University of Winnipeg.
+This project was created for a term 1 web development course at the University of Winnipeg.
+
+[Click here to open the site in your browser](https://chelseavb314.github.io/UW_WEB1_FinalProject/)
